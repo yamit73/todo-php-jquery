@@ -54,7 +54,6 @@ $("#taskss").on('click','#edit',function(e){
 
 $("#updateBtn").click(function(e){
     e.preventDefault();
-    console.log(editId)
     $.ajax({
         url:"config.php",
         type:"POST",

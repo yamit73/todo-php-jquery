@@ -21,7 +21,7 @@
                 if(isset($editId)){edit($editId);};
                 break;
             case "update":
-                if(isset($upId)){update($editId,$upId);};
+                if(isset($upId)){update($upId,$upTask);};
                 break;
             case "complete":
                 if(isset($compId)){completed($compId);};
